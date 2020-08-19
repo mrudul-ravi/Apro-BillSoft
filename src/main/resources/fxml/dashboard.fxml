@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="dashboard" stylesheets="@../styles/dashboard.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox maxWidth="-Infinity" minWidth="-Infinity" prefHeight="1920.0" prefWidth="350.0" styleClass="sidebar">
+         <children>
+            <Pane prefHeight="150.0" prefWidth="350.0" styleClass="logopane">
+               <children>
+                  <Label layoutX="64.0" layoutY="37.0" prefHeight="82.0" prefWidth="214.0" text="APRO ERP">
+                     <font>
+                        <Font name="System Bold" size="44.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</VBox>
